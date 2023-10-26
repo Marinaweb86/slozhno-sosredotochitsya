@@ -52,7 +52,7 @@
   position: absolute;
   display: inline-flex;
   align-items: center;
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -92,15 +92,16 @@
 }
 
 .header__theme-menu-button {
-  padding: 0 13px;
+  padding: 2px 13px;
   background-color: transparent;
   color: var(--secondary-color, #FF0070);
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   text-transform: lowercase;
   font-size: 18px;
   line-height: 18px;
   border: 1px solid transparent;
   cursor: pointer;
+  appearance: none;
 }
 
 .header__theme-menu-button_active {
@@ -110,11 +111,11 @@
 }
 
 .header__theme-menu-button:hover  {
-  border-color: var(--secondary-color, #FF0070);
+ border-color: var(--secondary-color-o-40, #ff007040);
 }
 
 .header__theme-menu-button:focus {
-  outline: 0;
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
@@ -123,8 +124,7 @@
 
 .header__title {
   color: var(--brand-color,#DB00FF);
-  text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   font-size: 116px;
   font-style: normal;
   font-weight: 700;
@@ -132,7 +132,7 @@
 }
 
 .shadow-decor {
-  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  text-shadow: 2px 2px 0 var(--accent-color, #FF0070);
 }
 
 .title-decor {
@@ -144,7 +144,7 @@
   margin-block: 55px;
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #FF0070);
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -172,7 +172,7 @@
 
 .title {
   color: var(--secondary-color,#FF0070);
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -191,7 +191,7 @@
 
 .article__title {
   color: var(--highlight-color,#000028);
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -200,7 +200,7 @@
 
 .article__content {
   color:var(--text-color,#F1B2CE);
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -209,7 +209,7 @@
 
 .article__title-advice { 
   color: var(--highlight-color,#000028);
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, monospace;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -217,11 +217,12 @@
 }
 
 .menu-link {
+  color: var(--text-color,#F1B2CE);
   text-decoration: none;
 }
 
 .menu-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--text-color, #F1B2CE);
 }
 
 .menu-link:focus {
@@ -229,7 +230,7 @@
 }
 
 .menu-link:focus-visible {
-  outline: 1px solid currentColor;
+  outline: 1px solid ;
 }
 
 .gallery-list {

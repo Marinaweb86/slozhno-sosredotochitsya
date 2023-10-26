@@ -28,11 +28,6 @@ ul {
   list-style: none;
 }
 
-picture {
-  margin: 0;
-  padding: 0;
-}
-
 button,
 a {
   color: currentColor;
@@ -42,6 +37,8 @@ a {
 }
 
 img {
+  margin: 0;
+  padding: 0;
   max-inline-size: 100%;
   block-size: auto;
 }
