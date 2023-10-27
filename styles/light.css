@@ -10,7 +10,7 @@
   --brand-color: var(--color-pink-3, #FFC2E6);
   --highlight-color: var(--color-black-2, #353430);
   --secondary-color: var(--color-black-2, #353430);
-  --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
+  --secondary-color-o-40: 1px solid rgba(50, 49, 45, 0.40);
   
   --page-background-color: var(--color-pink-1, #FFF1F7);
   --page-background-image: url("../images/cover-image-light.png");
@@ -25,7 +25,7 @@
     --brand-color: var(--color-pink-3, #FFC2E6);
     --highlight-color: var(--color-black-2, #353430);
     --secondary-color: var(--color-black-2, #353430);
-    --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
+    --secondary-color-o-40: 1px solid rgba(50, 49, 45, 0.40);
   
     --page-background-color: var(--color-pink-1, #FFF1F7);
     --page-background-image: url("../images/cover-image-light.png");

@@ -8,7 +8,7 @@
   --text-color: var(--color-pink-2, #F1B2CE);
   --brand-color: var(--color-purple-1, #DB00FF);
   --secondary-color: var(--color-purple-2, #FF0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
+  --secondary-color-o-40: 1px solid rgba(255, 0, 112, 0.40);
   --accent-color: var(--color--purple-2, #FF0070);
 
   --highlight-color: var(--color-black-1, #000028);
@@ -23,7 +23,7 @@
     --text-color: var(--color-pink-2, #F1B2CE);
     --brand-color: var(--color-purple-1, #DB00FF);
     --secondary-color: var(--color-purple-2, #FF0070);
-    --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
+    --secondary-color-o-40: 1px solid rgba(255, 0, 112, 0.40);
     --accent-color: var(--color-purple-2, #FF0070);
     --highlight-color: var(--color-black-1, #000028);
 
